@@ -1,9 +1,10 @@
 {
     "appKeys": {
-        "dummy": 0
+        "KEY_CONDITIONS": 1,
+        "KEY_TEMPERATURE": 0
     },
     "capabilities": [
-        ""
+        "location"
     ],
     "companyName": "hide.nba@gmail.com",
     "enableMultiJS": true,
@@ -16,6 +17,12 @@
                 "name": "IMAGE_BACKGROUND",
                 "targetPlatforms": null,
                 "type": "bitmap"
+            },
+            {
+                "file": "fonts/perfect-dos-vga.ttf",
+                "name": "FONT_PERFECT_DOS_20",
+                "targetPlatforms": null,
+                "type": "font"
             },
             {
                 "compatibility": "2.7",
